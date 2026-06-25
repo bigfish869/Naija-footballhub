@@ -1,0 +1,13 @@
+PS C:\Users\DELL PC\Naija Transfer Hub> git checkout master
+Switched to branch 'master'
+PS C:\Users\DELL PC\Naija Transfer Hub> git checkout sodiq-branch
+Switched to branch 'sodiq-branch'
+PS C:\Users\DELL PC\Naija Transfer Hub> git checkout master
+Switched to branch 'master'
+PS C:\Users\DELL PC\Naija Transfer Hub> git merge sodiq-branch
+Updating 679f3e0..7ddcfd0
+Fast-forward
+ test.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+PS C:\Users\DELL PC\Naija Transfer Hub>

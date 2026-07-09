@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #lockscreen {
+      position: fixed; top:0; left:0; width:100%; height:100%;
+      background: #111; color: #fff; display:flex; 
+      align-items:center; justify-content:center; flex-direction:column;
+      z-index: 9999;
+    }
+    #content { display:none; }
+  </style>
+</head>
+<body>
+  <div id="lockscreen">
+    <h2>This page is blocked 🔒</h2>
+    <input type="password" id="pass" placeholder="Enter password">
+    <button onclick="check()">Unlock</button>
+    <p id="error"></p>
+  </div>
+
+  <div id="content">
+    <h1>Welcome! Page unblocked ✅</h1>
+    <p>Your actual page content goes here.</p>
+  </div>
+
+  <script>
+    function check() {
+      const password = "1234"; // change this
+      if(document.getElementById('…
